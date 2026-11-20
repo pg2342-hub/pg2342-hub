@@ -2,7 +2,7 @@
 
 I've spent the last two years helping enterprise clients get AI systems live, most recently designing the rubrics that judge agent output at Surge.
 
-Each repo here is a small, working build for one deployment problem: the eval, check or go-live gate I'd want in place before an AI system goes live with a customer. Every one runs without an API key, uses synthetic or public data, and most have a one-click demo page.
+Each repo here is a small, working build for one deployment problem: the eval, check or go-live gate I'd want in place before an AI system goes live with a customer. All of them use synthetic or public data, and most have a one-click demo page that needs no install.
 
 [LinkedIn](https://www.linkedin.com/in/pranav-gudise/)
 
