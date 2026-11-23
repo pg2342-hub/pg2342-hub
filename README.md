@@ -17,6 +17,7 @@ Each repo here is a small, working build for one deployment problem: the eval, c
 | Build | What it does | |
 |---|---|---|
 | [frontdesk-call-gate](https://github.com/pg2342-hub/frontdesk-call-gate) | Go-live gate for an AI hotel front desk: 30 guest calls graded by rules and a Claude judge on every outcome (answer, task, hand-off, sales lead), with go, partial or no-go in CI | [Demo](https://pg2342-hub.github.io/frontdesk-call-gate/) |
+| [outbound-autosend-gate](https://github.com/pg2342-hub/outbound-autosend-gate) | Go-live gate for an AI outbound sales agent: 30 accounts with opt-outs, customers and another rep's deals as traps, rules and a Claude judge, and a per-step ladder that decides which emails can send without a rep | [Demo](https://pranavgudise.dev/outbound-autosend-gate/) |
 | [booking-eval-harness](https://github.com/pg2342-hub/booking-eval-harness) | 25-case eval and go-live gate for an agent that books field-service jobs (job, fee, area, slot, hand-off) | [Demo](https://pg2342-hub.github.io/booking-eval-harness/) |
 | [appointment-agent-eval](https://github.com/pg2342-hub/appointment-agent-eval) | Eval for a freight appointment-scheduling agent; switch any check off and see which cases catch it | [Demo](https://pg2342-hub.github.io/appointment-agent-eval/) |
 | [voice-agent-bakeoff](https://github.com/pg2342-hub/voice-agent-bakeoff) | Scorecard and rollout gate for moving a voice screening agent to a new model: replay, then 10%, then 50% | [Demo](https://pg2342-hub.github.io/voice-agent-bakeoff/) |
