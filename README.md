@@ -23,6 +23,12 @@ Each repo here is a small, working build for one deployment problem: the eval, c
 | [sim-texas-file-prereview](https://github.com/pg2342-hub/sim-texas-file-prereview) | A Sim workflow that pre-reviews home sale files for compliance, with a 25-case eval and a go-live gate | |
 | [othello-moment-test](https://github.com/pg2342-hub/othello-moment-test) | 25-moment test of whether a live-call sales coach suggests the right next step | |
 
+## Monitoring live data
+
+| Build | What it does | |
+|---|---|---|
+| [complaint-signal-detector](https://github.com/pg2342-hub/complaint-signal-detector) | Flags complaint types rising in a medical device's public FDA reports, backtested on what FDA had received before each recall; Claude tags free text behind guardrails, scored on 76 hand-labeled reports | [Demo](https://pg2342-hub.github.io/complaint-signal-detector/) |
+
 ## Agents and agent studies
 
 | Build | What it does | |
