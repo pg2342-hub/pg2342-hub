@@ -6,6 +6,12 @@ Each repo here is a small, working build for one deployment problem: the eval, c
 
 [LinkedIn](https://www.linkedin.com/in/pranav-gudise/)
 
+## Toolkit
+
+| Build | What it does | |
+|---|---|---|
+| [golive-gate](https://github.com/pg2342-hub/golive-gate) | The pattern behind the builds below as one open-source Python package, CLI and GitHub Action: eval cases, rule and LLM judge checks, and a go-live gate written as YAML that answers go, partial or no-go, with the reason. Includes ablation and regression diffs | [Demo](https://pg2342-hub.github.io/golive-gate/) |
+
 ## Evals and go-live gates for agents
 
 | Build | What it does | |
