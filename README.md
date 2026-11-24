@@ -25,6 +25,8 @@ Each repo here is a small, working build for one deployment problem: the eval, c
 | [ticket-routing-eval](https://github.com/pg2342-hub/ticket-routing-eval) | Picks the confidence threshold for auto-routing support tickets, with accuracy, misroutes and cost per 1,000 tickets | [Demo](https://pg2342-hub.github.io/ticket-routing-eval/) |
 | [sim-texas-file-prereview](https://github.com/pg2342-hub/sim-texas-file-prereview) | A Sim workflow that pre-reviews home sale files for compliance, with a 25-case eval and a go-live gate | |
 | [othello-moment-test](https://github.com/pg2342-hub/othello-moment-test) | 25-moment test of whether a live-call sales coach suggests the right next step | |
+| [contract-memory-harness](https://github.com/pg2342-hub/contract-memory-harness) | Compares long context, retrieval, a tool agent and a precomputed memory over a contract bank, and what breaks when a contract is amended | [Demo](https://pg2342-hub.github.io/contract-memory-harness/) |
+| [agent-coldstart-study](https://github.com/pg2342-hub/agent-coldstart-study) | Can a fresh coding agent find and set up an email inbox on its own? 8 cold-start runs, traces and findings | [Results](https://pg2342-hub.github.io/agent-coldstart-study/) |
 
 ## Monitoring live data
 
@@ -32,7 +34,7 @@ Each repo here is a small, working build for one deployment problem: the eval, c
 |---|---|---|
 | [complaint-signal-detector](https://github.com/pg2342-hub/complaint-signal-detector) | Flags complaint types rising in a medical device's public FDA reports, backtested on what FDA had received before each recall; Claude tags free text behind guardrails, scored on 76 hand-labeled reports | [Demo](https://pg2342-hub.github.io/complaint-signal-detector/) |
 
-## Agents and agent studies
+## Agents and tools
 
 | Build | What it does | |
 |---|---|---|
@@ -43,8 +45,6 @@ Each repo here is a small, working build for one deployment problem: the eval, c
 | [order-intake-agent](https://github.com/pg2342-hub/order-intake-agent) | Turns messy shipment-request emails (PDF tenders, spreadsheets, forwarded threads) into orders with Claude, applies each shipper's rules, and hands anything risky to an operator with a note; per-shipper rollout from shadow to approve to auto, 30-email test set in CI | [Demo](https://pranavgudise.dev/order-intake-agent/) |
 | [lease-issues-list](https://github.com/pg2342-hub/lease-issues-list) | Reviews a commercial office lease against a landlord's standard positions and drafts the issues list a lawyer reviews: Claude reads the lease, code checks every quote word for word, and anything unverified becomes a check item; 90 of 90 positions right on six answer-keyed leases, run on four public SEC-filed leases | [Demo](https://pranavgudise.dev/lease-issues-list/) |
 | [page-change-agent](https://github.com/pg2342-hub/page-change-agent) | Turns a website change request filed as a GitHub issue into an unpublished CMS draft with Claude: compliance checks it cannot talk past, a read-back from Contentful and a before and after diff on the issue, while disclosures, rates and claims go to compliance; 30 of 30 requests right on three recorded live runs | [Demo](https://pranavgudise.dev/page-change-agent/) |
-| [contract-memory-harness](https://github.com/pg2342-hub/contract-memory-harness) | Compares long context, retrieval, a tool agent and a precomputed memory over a contract bank, and what breaks when a contract is amended | [Demo](https://pg2342-hub.github.io/contract-memory-harness/) |
-| [agent-coldstart-study](https://github.com/pg2342-hub/agent-coldstart-study) | Can a fresh coding agent find and set up an email inbox on its own? 8 cold-start runs, traces and findings | [Results](https://pg2342-hub.github.io/agent-coldstart-study/) |
 | [prompt-to-quote](https://github.com/pg2342-hub/prompt-to-quote) | A rep's plain-English deal becomes a priced quote with its approvals, on a public price book; runs in the browser | [Demo](https://pg2342-hub.github.io/prompt-to-quote/) |
 | [imessage-reorder-agent](https://github.com/pg2342-hub/imessage-reorder-agent) | Text "the usual," confirm, pay; everything else goes to a person. Tested on 28 conversations against a mock API | [Demo](https://pg2342-hub.github.io/imessage-reorder-agent/) |
 | [intake-to-po-agent](https://github.com/pg2342-hub/intake-to-po-agent) | Takes a plain-language purchase request through to a PO decision under a buying policy, with a labeled eval set | |
