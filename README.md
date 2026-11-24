@@ -34,6 +34,7 @@ Each repo here is a small, working build for one deployment problem: the eval, c
 | Build | What it does | |
 |---|---|---|
 | [complaint-signal-detector](https://github.com/pg2342-hub/complaint-signal-detector) | Flags complaint types rising in a medical device's public FDA reports, backtested on what FDA had received before each recall; Claude tags free text behind guardrails, scored on 76 hand-labeled reports | [Demo](https://pg2342-hub.github.io/complaint-signal-detector/) |
+| [attack-path-readout](https://github.com/pg2342-hub/attack-path-readout) | Turns validated attack paths from a security test into fix tickets for the teams that own each asset: Claude writes each ticket behind guardrails, anything that reaches a crown-jewel system waits for a person, and a weekly readout tracks retests and time to close; real CISA KEV and FIRST EPSS data on a made-up utility, gated in CI | [Demo](https://pranavgudise.dev/attack-path-readout/) |
 
 ## Agents and tools
 
