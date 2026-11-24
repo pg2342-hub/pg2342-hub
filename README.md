@@ -10,7 +10,7 @@ Each repo here is a small, working build for one deployment problem: the eval, c
 
 | Build | What it does | |
 |---|---|---|
-| [golive-gate](https://github.com/pg2342-hub/golive-gate) | The pattern behind the builds below as one open-source Python package, CLI and GitHub Action: eval cases, rule and LLM judge checks, and a go-live gate written as YAML that answers go, partial or no-go, with the reason. Includes ablation and regression diffs | [Demo](https://pg2342-hub.github.io/golive-gate/) |
+| [golive-gate](https://github.com/pg2342-hub/golive-gate) | An open-source Python package, CLI and GitHub Action that several builds below use for their gates: eval cases, rule and LLM judge checks, and a go-live gate written as YAML that answers go, partial or no-go, with the reason. Includes ablation and regression diffs | [Demo](https://pg2342-hub.github.io/golive-gate/) |
 
 ## Evals and go-live gates for agents
 
