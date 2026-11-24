@@ -47,6 +47,7 @@ Each repo here is a small, working build for one deployment problem: the eval, c
 
 | Build | What it does | |
 |---|---|---|
+| [scenario-coverage-map](https://github.com/pg2342-hub/scenario-coverage-map) | Maps which conditions real driving logs cover and where a perception model misses cars, compares a simulated twin and its fog, rain and low-sun renders, and ranks which scenario packs to simulate next | [Demo](https://pranavgudise.dev/scenario-coverage-map/) |
 | [golive-readiness-check](https://github.com/pg2342-hub/golive-readiness-check) | Unit-by-unit go/no-go for a hospital staffing rollout across HR, timekeeping and EHR feeds, with fixes grouped by owning team | [Demo](https://pg2342-hub.github.io/golive-readiness-check/) |
 | [robot-cabling-gate](https://github.com/pg2342-hub/robot-cabling-gate) | Decides when a cabling robot in a data center can work without a tech watching: every connection graded each shift, ten GO shifts in a row to go unsupervised, Claude triage of tech notes and a number-checked weekly update | [Demo](https://pg2342-hub.github.io/robot-cabling-gate/) |
 | [migration-cutover-gate](https://github.com/pg2342-hub/migration-cutover-gate) | Go-live gate for moving a law firm's data into a new practice management system: rules clean the export, Claude makes the matching calls rules cannot, and nothing loads until counts, balances owed and trust totals tie to the old system's reports | [Demo](https://pranavgudise.dev/migration-cutover-gate/) |
